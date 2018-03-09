@@ -33,7 +33,7 @@ export class SimpleNotificationsComponent implements OnInit, OnDestroy {
   private lastOnBottom = true;
   private maxStack = 8;
   private preventLastDuplicates: any = false;
-  private preventDuplicates = false;
+  private preventDuplicates = true;
 
   // Sent values
   public timeOut = 0;
